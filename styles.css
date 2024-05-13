@@ -43,7 +43,7 @@ body {
   
   /* Home Page */
   .home-container {
-    background-image: url('background.jpg');
+    background-image: url('https://media.istockphoto.com/id/904172104/photo/weve-made-it-all-this-way-i-am-proud.jpg?s=612x612&w=0&k=20&c=MewnsAhbeGRcMBN9_ZKhThmqPK6c8nCT8XYk5ZM_hdg=');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -51,7 +51,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: rgb(48, 44, 44);
     text-align: center;
   }
   

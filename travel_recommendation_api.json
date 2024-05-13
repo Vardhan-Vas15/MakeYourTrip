@@ -1,38 +1,81 @@
-[
-    {
-      "name": "Bali",
-      "category": "beach",
-      "imageUrl": "bali.jpg",
-      "description": "Bali is a popular beach destination known for its beautiful beaches, rich culture, and stunning landscapes."
-    },
-    {
-      "name": "Maldives",
-      "category": "beach",
-      "imageUrl": "maldives.jpg",
-      "description": "The Maldives is an archipelago of islands in the Indian Ocean, famous for its crystal-clear waters and luxurious overwater bungalows."
-    },
-    {
-      "name": "Angkor Wat",
-      "category": "temple",
-      "imageUrl": "angkor-wat.jpg",
-      "description": "Angkor Wat is a massive temple complex in Cambodia and one of the largest religious monuments in the world."
-    },
-    {
-      "name": "Bagan",
-      "category": "temple",
-      "imageUrl": "bagan.jpg",
-      "description": "Bagan is an ancient city in Myanmar known for its impressive collection of Buddhist temples and pagodas."
-    },
-    {
-      "name": "New Zealand",
-      "category": "country",
-      "imageUrl": "new-zealand.jpg",
-      "description": "New Zealand is a stunning country known for its breathtaking landscapes, including mountains, glaciers, and fjords."
-    },
-    {
-      "name": "Iceland",
-      "category": "country",
-      "imageUrl": "iceland.jpg",
-      "description": "Iceland is a Nordic island country known for its volcanic landscapes, hot springs, and natural wonders like the Northern Lights."
-    }
-  ]
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIqbQRuDBdnrOxPVBK7cGZR16c0lJWP8jq5nDCqZUVxA&s",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://media.cntraveler.com/photos/63482b255e7943ad4006df0b/16:9/w_2560%2Cc_limit/tokyoGettyImages-1031467664.jpeg",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://example.com/tokyo-image.jpg",
+            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://example.com/kyoto-image.jpg",
+            "description": "Known for its historic temples, gardens, and traditional tea houses."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "https://example.com/rio-image.jpg",
+            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "https://example.com/sao-paulo-image.jpg",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "https://example.com/angkor-wat-image.jpg",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "https://example.com/taj-mahal-image.jpg",
+        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "https://example.com/bora-bora-image.jpg",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "https://example.com/copacabana-image.jpg",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      }
+    ]
+  }
+  
