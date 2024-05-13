@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TravelBloom</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchButton">Search</button>
+        <button id="resetButton">Reset</button>
+    </nav>
+
+    <!-- Home Page -->
+    <div>
+        <img src="background.jpg" alt="Background Image">
+        <h1>Welcome to TravelBloom</h1>
+        <p>Explore the world with our curated travel recommendations.</p>
+        <!-- Add social media icons if desired -->
+    </div>
+
+    <!-- About Us Page -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <div>
+        <h1>About Us</h1>
+        <p>TravelBloom is a leading travel recommendation company.</p>
+        <h2>Our Team</h2>
+        <ul>
+            <li>John Doe - CEO</li>
+            <li>Jane Smith - Marketing Manager</li>
+            <!-- Add more team members -->
+        </ul>
+    </div>
+
+    <!-- Contact Us Page -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <div>
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Recommendations Container -->
+    <div id="recommendations"></div>
+
+    <!-- Include JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

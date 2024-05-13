@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Bali",
+      "category": "beach",
+      "imageUrl": "bali.jpg",
+      "description": "Bali is a popular beach destination known for its beautiful beaches, rich culture, and stunning landscapes."
+    },
+    {
+      "name": "Maldives",
+      "category": "beach",
+      "imageUrl": "maldives.jpg",
+      "description": "The Maldives is an archipelago of islands in the Indian Ocean, famous for its crystal-clear waters and luxurious overwater bungalows."
+    },
+    {
+      "name": "Angkor Wat",
+      "category": "temple",
+      "imageUrl": "angkor-wat.jpg",
+      "description": "Angkor Wat is a massive temple complex in Cambodia and one of the largest religious monuments in the world."
+    },
+    {
+      "name": "Bagan",
+      "category": "temple",
+      "imageUrl": "bagan.jpg",
+      "description": "Bagan is an ancient city in Myanmar known for its impressive collection of Buddhist temples and pagodas."
+    },
+    {
+      "name": "New Zealand",
+      "category": "country",
+      "imageUrl": "new-zealand.jpg",
+      "description": "New Zealand is a stunning country known for its breathtaking landscapes, including mountains, glaciers, and fjords."
+    },
+    {
+      "name": "Iceland",
+      "category": "country",
+      "imageUrl": "iceland.jpg",
+      "description": "Iceland is a Nordic island country known for its volcanic landscapes, hot springs, and natural wonders like the Northern Lights."
+    }
+  ]
